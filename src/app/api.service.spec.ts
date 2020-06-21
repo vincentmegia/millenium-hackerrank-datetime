@@ -32,9 +32,9 @@ describe('ApiService', () => {
 
   it('should not ditch the API function (API Mock Test)', inject([ApiService, MockBackend], (service: ApiService, backend: MockBackend) => {
     const mockData = {
-      "time": "11:12:37 AM",
+      "time": "09:33:44 AM",
       "milliseconds_since_epoch": 1502104357052,
-      "date": "08-07-2017"
+      "date": "06-21-2020"
     };
     let response = new ResponseOptions({
       body: JSON.stringify(mockData)

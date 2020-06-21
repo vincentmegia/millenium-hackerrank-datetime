@@ -23,12 +23,11 @@ export class AppComponent {
     this.service
       .getDateTimeAPI()
       .subscribe(x => {
-        debugger;
-        let jsonObject = JSON.parse(x.text());
-        this.dateTimeObj = new Date(jsonObject.date);
-        this.date = this.dateTimeObj;
-        this.year = this.dateTimeObj.getFullYear();
-        console.log(x.text());
+         let jsonObject = JSON.parse(x.text());
+         this.dateTimeObj = new Date(jsonObject.date);
+         this.date = this.dateTimeObj;
+         this.year = this.dateTimeObj.getFullYear();
+         console.log(x.text());
       });
   }
 }
