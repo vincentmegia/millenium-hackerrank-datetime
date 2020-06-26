@@ -2,7 +2,7 @@
 # Maven, Node, Python, Rails
 
 # Maven
-
+.idea/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
