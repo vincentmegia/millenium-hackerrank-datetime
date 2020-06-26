@@ -14,7 +14,6 @@ export class AppComponent {
   constructor(private service: ApiService) {}
 
   ngOnInit() {
-    // assign API response to dateTimeObj on loading of application
     this.getDateTime();
   }
 

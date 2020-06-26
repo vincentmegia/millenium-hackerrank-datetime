@@ -37,4 +37,5 @@ describe('AppComponent', () => {
       expect(app.getDateTime).toHaveBeenCalled();
     });
   }));
+
 });
